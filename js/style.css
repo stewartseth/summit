@@ -1,11 +1,13 @@
-
-
+/* Form Assembly Elements */
+@media (min-width: 700px) {
+	.wFormContainer {	
+		width: 700px !important;
+	}
+}
 .wFormContainer {	
 	border-style: none !important; 
 	font-family: Helvetica !important;
 	font-weight: normal !important;
-	width: 100% !important;
-
 }
 
 .wFormTitle {
@@ -38,8 +40,6 @@
 label {
 	width: 220px !important;
 }
-
-
 
 /* Bootstrap Styles */
 .well {
@@ -76,9 +76,29 @@ label {
 .wForm label, .wForm .label {
 	vertical-align: bottom !important;
 } 
-@media (max-width: 450px) {
-	.wForm {
+
+/* Styles for less than 700px devices */
+@media (min-width: 700px) {
+
+	.wForm label, .wForm .label {
+		margin-left: 70px !important;
+	}
+}
+@media (max-width: 525px) {
+	.wFormContainer {
 		width: 99% !important;
+	}
+	.wForm input[type=text] {
+		width: 100% !important;
+	}
+	.inputWrapper {
+		width: 90% !important;
+	}
+}
+@media (max-width: 450px) {
+
+	.wForm {
+		width: 95% !important;
 	}
 	#header {
     	height: 90px !important;
@@ -87,7 +107,7 @@ label {
 		width: 100% !important;
 	}
 	.inputWrapper {
-		width: 250px !important;
+		width: 87% !important;
 	}
 }
 
@@ -111,3 +131,4 @@ label#tfa_856-L.label.preField, label#tfa_846-L.label.preField, label#tfa_849-L.
 	font-size: 14px !important;
 	
 }
+

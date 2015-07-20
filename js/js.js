@@ -1,5 +1,4 @@
 $(function() {
-    //$( "#wfPgIndex-1" ).wrap( "<div class='well'></div>" );
     $('#tfa_535').before("<h1 id='thankyou'><center>Thank you for your interest in applying to Lebanon Valley College!</center></h1>");
     
     $('.section.pageSection  > .oneField:lt(6)').wrapAll("<div id='about' class='well'></div>");
