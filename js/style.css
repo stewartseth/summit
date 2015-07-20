@@ -79,9 +79,11 @@ label {
 
 /* Styles for less than 700px devices */
 @media (min-width: 700px) {
-
 	.wForm label, .wForm .label {
 		margin-left: 70px !important;
+	}
+	.wForm .postField {
+    	margin-left: 10px !important;
 	}
 }
 @media (max-width: 525px) {
