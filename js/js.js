@@ -29,6 +29,7 @@ $(function() {
     //New Comment
 
     var newfancyvariable = "nothing";
+    var newnew;
     alert(newfancyvariable);
 
     
