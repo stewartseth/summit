@@ -1,3 +1,4 @@
+//Comment at the beginning of the code
 $(function() {
     $('#tfa_535').before("<h1 id='thankyou'><center>Thank you for your interest in applying to Lebanon Valley College!</center></h1>");
     
