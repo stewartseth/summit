@@ -28,6 +28,9 @@ $(function() {
     $('#official').before("<h1>Make It Offical</h1>");
     //New Comment
 
+    var newfancyvariable = "nothing";
+    alert(newfancyvariable);
+
     
 
 });
